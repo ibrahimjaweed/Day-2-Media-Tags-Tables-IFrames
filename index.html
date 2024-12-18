@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media tags, Audio & Video, Iframes</title>
+</head>
+<body>
+    <h1>Tables</h1>
+
+    <table border="5">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Married</th>
+        </tr> 
+        <tr>
+            <td>1</td>
+            <td>Ibrahim</td>
+            <td colspan="2">22</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ali</td>
+            <td>25</td>
+            <td>no</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Formating tags</h1>
+    <p>
+        Hey i am
+        <b>very very </b>
+        strong, i 
+        <strong>like</strong> 
+        <i> gym </i>
+        alot
+    </p>
+    <p>
+        H
+        <sub>2</sub>
+        O
+    </p>
+    <p>
+        X<sup>2</sup>
+        Y<sup>2</sup>
+    </p>
+    <hr>
+    <h1> I Frames </h1>
+    <h3>Youtube video</h3>
+    <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/tP6fYH3woJM?si=PW6d_q7Em-Zwgg24"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
+
+<h3>DOIR</h3>
+
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158921.41692274017!2d-0.30787172187500006!3d51.5105165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876052a89fdaacf%3A0xa4dd9994c2cddcb6!2sDIOR!5e0!3m2!1sen!2suk!4v1734452784376!5m2!1sen!2suk"
+width="600"
+height="450"
+style="border:0;"
+allowfullscreen="" 
+loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+<h3>AUDIO & VIDEO</h3>
+<audio controls src="./assests/music.mp3">
+</audio>
+<video
+autoplay
+loop
+width="400" 
+controls src="./assests/video.mp4">
+</video>
+
+<h1> Forms</h1>
+<h3>welcome in college, fill the following  form for registration</h3>
+
+<form>
+    <label for="fname"> First name</label>
+    <input id="fname" type="text" placeholder="First name">
+    <br>
+    <label for="lname">last name</label>
+    <input id="lname" type="text" placeholder="last name">
+    <br>
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email">
+    <br>
+    <label> Password </label>
+    <input type="password">
+    <br>
+    <label>Phone number</label>
+    <input type="tel">
+    <br>
+    <label>Enter your age</label>
+    <input type="number">
+    <br>
+    <label>Your Fav colour</label>
+    <input type="color">
+    <br>
+    <label>Your perfered Time</label>
+    <input type="time">
+    <br>
+    <label>Your DOB</label>
+    <input type="date">
+    <br>
+    <label>Choose File</label>
+    <input type="file" accept=".jpeg">
+
+    <br>
+    <label>Something about you</label>
+    <textarea rows="10" cols="10"></textarea>
+    <br>
+    <input id="box" type="checkbox">
+    <label for="box">I accept all terms and conditions</label>
+    <br>
+    <label>Your gender</label>
+    <select>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Perfer not to say</option>
+    </select>
+    <br>
+    <p>Choose your major</p>
+    B.tech
+    <input name="major" type="radio">
+    M.Tech
+    <input name="major" type="radio">
+    MBA
+    <input name="major" type="radio">
+    <br>
+    <input type="submit">
+
+</form>
+</body>
+</html>
